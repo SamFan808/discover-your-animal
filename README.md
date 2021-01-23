@@ -28,4 +28,4 @@ HTML Each of the five HMTL files are "mobile friendly" which adjusts the screen 
 User Instructions
 The user can launch from the main index HTML page by clicking 
 
-Live Application: https://github.com/dawsontc003/discover-your-animal
+Live Application: https://sleepy-sierra-89293.herokuapp.com/
