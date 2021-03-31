@@ -1,6 +1,7 @@
- # Discover Your Inner Animal
+# Discover Your Inner Animal
 
 # Project Name: Discover Your Inner Animal
+
 ![license badge](https://img.shields.io/static/v1?label=license&message=MIT&color=blue)
 
 ## Description
@@ -31,16 +32,14 @@ HTML, CSS, JavaScript, NodeJS, Express, MySQL
 
 Licensed under: MIT license
 
-
 ## Screenshots
 
+<img src= "./public/assets/Discover-Your-Inner-Animal.png">
+
 Live Application: https://sleepy-sierra-89293.herokuapp.com/
-
-
 
 ## Questions
 
 GitHub Repository:
 
 https://github.com/SamFan808/discover-your-animal
-
