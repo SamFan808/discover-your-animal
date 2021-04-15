@@ -56,26 +56,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
         },
         body: JSON.stringify(dataPost),
       })
-        .then(() => {
-          // Reload the page
-          // window.location.reload();
-        })
+        .then(() => {})
         .catch((err) => console.error(err));
       console.log("post made");
     });
   });
 });
-
-// const animalDescription = () => {
-//   fetch("/api/results:id", {
-//     method: "GET",
-//     headers: {
-//       Accept: "application/json",
-//       "Content-Type": "application/json",
-//     },
-//     body: JSON.stringify(data),
-//   })
-//     .then(() => {
-//       // window.location.reload();
-//     })
-//     .catch((err) => console.error(err));

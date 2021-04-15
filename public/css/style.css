@@ -29,22 +29,6 @@ nav {
   width: 40%;
 }
 
-/* Specific font for About Me */
-section h1 {
-  font-size: 50px;
-  text-align: center;
-}
-/* used to style paragragh in About Me */
-section p {
-  font-size: 25px;
-  float: left;
-  margin: 150px;
-}
-
-article h2 {
-  text-align: center;
-}
-
 #Test {
   margin-left: 100px;
   margin-top: -100px;
@@ -112,29 +96,6 @@ article h2 {
   float: right;
 }
 
-/* using to size pictures consistently */
-.img-fluid {
-  max-width: 100%;
-  height: 400px;
-  width: 400px;
-  margin: 100px;
-}
-
-/* highlight my name in top left */
-.navbar-brand {
-  font-size: 35px;
-  background-color: #0cacf7;
-  padding: 30px;
-}
-
-header {
-  padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: #4c9b87;
-  color: #c33e3e;
-}
-
 .card {
   margin-top: 50px;
   margin-left: 600px;
@@ -153,16 +114,6 @@ footer {
   font-size: 16px;
   clear: both;
 }
-/* media query, resize the screen if needed */
-@media screen and (max-width: 768px) {
-  body {
-    background-color: black;
-  }
-
-  .wrapper {
-    width: 600 px;
-  }
-}
 
 .page-footer {
   text-align: center;
@@ -173,8 +124,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1px;
-  width: 80%;
-  height: 400px;
+  width: auto;
+  max-height: 400px;
 }
 
 .mainDescription {
@@ -186,7 +137,6 @@ footer {
 }
 
 #descTitle {
-  width: 80%;
-  text-align: left;
+  text-align: center;
   font-weight: 900;
 }
